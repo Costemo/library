@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body {
+  background-image: url(images/wood.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  } 
+  
+  .book {
+    
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); 
+    backdrop-filter: blur(1px);
+    padding: 20px;
+    color: #333; 
+    text-align: center; 
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  
+  .hidden {
+  
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(24, 22, 22, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); 
+    backdrop-filter: blur(3px);
+    padding: 20px;
+    color: #333; 
+ 
+    color: white;
+    height: 175px;
+}  
+
+button {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); 
+  backdrop-filter: blur(1px);
+  padding: 5px;
+  color: #333; 
+  text-align: center;
+}
+
+button:hover {
+  background: orange;
+}
+
+input {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); 
+  backdrop-filter: blur(1px);
+  padding: 1px;
+  color: #f8f1f1; 
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+  font-style: italic;
+}
+.new-book-btn {
+  font-size: 60px;
+}
